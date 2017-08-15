@@ -1,7 +1,7 @@
 [Unit Reference]
 ShipClass=Swiftsure
 Description=Swiftsure-class SSN (1984 Era)
-History=The Swiftsure class was a class of nuclear-powered fleet submarines in service with the Royal Navy from the early 1970s until 2010.
+History=Self Noise Rating: 128 db\nTest Depth: 1600 ft\nEscape Depth: 600 ft\n\nThe Swiftsure class was a class of nuclear-powered fleet submarines in service with the Royal Navy from the early 1970s until 2010.
 
 [Player Ship Instances]
 PlayerClassNames=Swiftsure,Sovereign,Superb,Sceptre,Spartan,Splendid

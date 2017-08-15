@@ -21,7 +21,7 @@ PivotPointTurning=0.256
 DiveRate=1
 SurfaceRate=1
 BallastRate=0.25
-Waterline=0.0
+Waterline=0.04
 SubmergedAt=0.25
 CavitationParameters=20,-100
 PropRotationSpeed=190,-190
@@ -96,7 +96,7 @@ DamageControlPartyY=-31
 ModelFile=ships/wp_ssbn_typhoon/wp_ssbn_typhoon
 
 //Hull and Deck
-MeshPosition=0,-0.05,0
+MeshPosition=0,0,0
 MeshRotation=0,0,0
 
 MeshHullCollider=wp_ssbn_typhoon_coll_hull
@@ -105,31 +105,31 @@ MeshSuperstructureCollider=wp_ssbn_typhoon_coll_ss
 Material=ships/wp_ssbn_typhoon/wp_ssbn_typhoon_mat
 MaterialTextures=ships/wp_ssbn_typhoon/wp_ssbn_typhoon_tx,ships/wp_ssbn_typhoon/wp_ssbn_typhoon_spec,ships/wp_ssbn_typhoon/wp_ssbn_typhoon_nm
 Mesh=wp_ssbn_typhoon
-MeshPosition=0,0.061,-1.08
+MeshPosition=0,0.111,-1.08
 MeshRudder=wp_ssbn_typhoon_dorsal_rudder
-MeshPosition=0,-0.12969,-1.133
+MeshPosition=0,-0.07969,-1.133
 MeshRudder=wp_ssbn_typhoon_ventral_rudder
-MeshPosition=0,0.02477,1.019
+MeshPosition=0,0.07477,1.019
 MeshBowPlanes=wp_ssbn_typhoon_bowplanes
-MeshPosition=0,-0.0588,-1.191
+MeshPosition=0,-0.0088,-1.191
 MeshSternPlanes=wp_ssbn_typhoon_sternplanes
-MeshPosition=-0.07725,-0.05965,-1.135
+MeshPosition=-0.07725,-0.00965,-1.135
 MeshProp=wp_ssbn_typhoon_prop_l
-MeshPosition=.07725,-0.05965,-1.135
+MeshPosition=.07725,-0.00965,-1.135
 MeshProp=wp_ssbn_typhoon_prop_r
 
 [Model]
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/materials/usn_masts
-MeshPosition=0,0.050,0.000
+MeshPosition=0,0.140,0.000
 MastHeight=0.095
 MeshMast=usn_ssn_permit_periscope
 
-MeshPosition=0,0.050,-0.030
+MeshPosition=0,0.140,-0.030
 MastHeight=0.095
 MeshMast=usn_ssn_permit_esm_mast
 
-MeshPosition=0,0.050,-0.060
+MeshPosition=0,0.140,-0.060
 MastHeight=0.085
 MeshMast=usn_ssn_permit_radar_mast
 
@@ -138,37 +138,37 @@ MeshMast=usn_ssn_permit_radar_mast
 
 //Tube 1
 MeshRotation=0,0,0
-MeshPosition=0.015,0.103,1.26
+MeshPosition=0.015,0.053,1.26
 TorpedoSpawnPosition=0.0148,0.053,1.26
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 2
 MeshRotation=0,0,0
-MeshPosition=-0.015,0.103,1.26
+MeshPosition=-0.015,0.053,1.26
 TorpedoSpawnPosition=-0.0148,0.053,1.26
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 3
 MeshRotation=0,0,0
-MeshPosition=0.015,0.0836,1.27
+MeshPosition=0.015,0.0336,1.27
 TorpedoSpawnPosition=0.015,0.0336,1.27
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 4
 MeshRotation=0,0,0
-MeshPosition=-0.015,0.0836,1.27
+MeshPosition=-0.015,0.0336,1.27
 TorpedoSpawnPosition=-0.015,0.0336,1.27
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 5
 MeshRotation=0,0,0
-MeshPosition=0.015,0.0651,1.28
+MeshPosition=0.015,0.0151,1.28
 TorpedoSpawnPosition=0.015,0.0151,1.28
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 6
 MeshRotation=0,0,0
-MeshPosition=-0.015,0.0651,1.28
+MeshPosition=-0.015,0.0151,1.28
 TorpedoSpawnPosition=-0.015,0.0151,1.28
 TorpedoEffectPosition=0,0,0.0232
 
@@ -184,20 +184,20 @@ MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
 
 //Wake
-MeshPosition=0,-0.2,0
+MeshPosition=0,0,0
 BowWaveParticle=ships/particles/bowwave_largesub
 PropWashParticle=ships/particles/bowwave
 CavitationParticle=ships/particles/wp_ssbn_typhoon_cavitation
 FunnelSmokeParticle=ships/particles/wp_ssbn_typhoon_bubbles
 EmergencyBlowParticle=ships/particles/wp_ssbn_typhoon_emergency_blow
 
-ParticleBowWavePosition=0,-0.2,1.312
-ParticlePropWashPosition=0,-0.286,-1.207
+ParticleBowWavePosition=0,0,1.312
+ParticlePropWashPosition=0,-0.086,-1.207
 
-ParticleHullFoamPosition=0,-0.2,0.99
+ParticleHullFoamPosition=0,0,0.99
 ParticleHullFoamParameters=10,0.55,0.3,0.055,0,0,0.25
 
-ParticleSternFoamPosition=0,-0.2,-1.07
+ParticleSternFoamPosition=0,0,-1.07
 ParticleSternFoamParameters=25,0.35,0.2,0.025,0.01,0,0.25
 KelvinWaves=4.43,4.43
 
