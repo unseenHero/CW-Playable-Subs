@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Yasen
+Description=Yasen-M-class SSN (1984 Era)
+History=The Yasen-M-class submarine is the newest Russian nuclear-powered multipurpose attack submarine. Based on the Akula-class submarine and the Alfa-class submarine, it is designed to replace Russia's Soviet-era attack submarines, both the Akula and Oscar-class submarine.
+
+[Player Ship Instances]
+PlayerClassNames=Kazan, Novosibirsk, Krasnoyarsk, Arhangelsk, Perm, Ulyanovsk
+
+PlayerClassHullNumbers=K-561, K-573, K-571, K-564, K-580, K-581

@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Swiftsure
+Description=Swiftsure-class SSN (1984 Era)
+History=The Swiftsure class was a class of nuclear-powered fleet submarines in service with the Royal Navy from the early 1970s until 2010.
+
+[Player Ship Instances]
+PlayerClassNames=Swiftsure,Sovereign,Superb,Sceptre,Spartan,Splendid
+
+PlayerClassHullNumbers=S126, S108, S109, S104, S105, S106

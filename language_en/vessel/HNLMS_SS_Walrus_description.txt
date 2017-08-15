@@ -1,0 +1,8 @@
+[Unit Reference]
+ShipClass=Walrus
+Description=Walrus-class SS (1984 Era)
+History= The Walrus-Class submarine replaced the Zwaardvis class submarines in the Royal Dutch Navy. 
+
+[Player Ship Instances]
+PlayerClassNames=Walrus, Zeeleeuw, Dolfijn, Bruinvis
+PlayerClassHullNumbers= S802, S803, S808, S810

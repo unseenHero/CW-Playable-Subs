@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=DM2A4 Seehecht
+WeaponDescriptiveName=DM2A4 Seehecht (Seahawk)
+WeaponDescription=The DM2A4 Seehecht torpedo is a heavyweight acoustic-homing torpedo with sophisticated sonar, all-digital guidance-and-control systems, digital fusing systems, and propulsion improvements. It is very quiet in its class.

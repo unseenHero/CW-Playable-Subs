@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=SS-N-15
+WeaponDescriptiveName=SS-N-15 Starfish ASW Missile
+WeaponDescription=Both submarine and surface launched versions exist.

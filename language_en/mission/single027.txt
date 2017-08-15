@@ -1,0 +1,13 @@
+Image=campaign/images/cuban missiles
+MissionLocation=Atlantic Sea. 4000 miles North-East from Cuba.
+Briefing=All means of negotiations have failed. USS Essex was torpedoed by Soviet Submarine. You are to consider all Soviet Transport and Warships hostile. Weapons free.
+Briefing=
+Briefing=Primary Objective:
+Briefing=Sink the Main Vessles of the Transport Fleet.
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Sink the Escort Vessles of the Transport Fleet.
+Briefing=
+Briefing=
+Briefing=
+Briefing=(Mission Submitted By III./JG 2 Oberst. Included with permission.)

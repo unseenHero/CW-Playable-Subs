@@ -1,0 +1,12 @@
+Image=campaign/images/pact wolfpack 4
+MissionLocation=Norwegian Sea
+Briefing=Intel reports:
+Briefing=The Russian Navy is interested in testing the capabilities of the latest model of British attack submarine.
+Briefing=
+Briefing=You reach the rendezvous point. Teach them a lesson!
+Briefing=
+Briefing=Primary Objective:
+Briefing=Beat the British submarine.
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Stay undetected.

@@ -1,0 +1,12 @@
+Image=campaign/images/sea rescue 1
+MissionLocation=Black Sea. 20 miles due South of Sevastopol.
+Briefing=USS Yorktown collided with Soviet Frigate Bezzavetny and sank after brutal conflict. As SSN-712 approaches the wreck of USS Yorktown to rescue, sonar reports unusual contact.
+Briefing=
+Briefing=Primary Objective:
+Briefing=Sink the Main Vessles of the Soviet Warships responsible for sinking of USS Yorktown.
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Avoid Detection. Survive.
+Briefing=
+Briefing=
+Briefing=(Mission Submitted By III./JG 2 Oberst. Included with permission.)

@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=TIGERFISH
+WeaponDescriptiveName=Tigerfish Torpedo
+WeaponDescription=The Mk 24 Tigerfish torpedo was a heavyweight acoustic homing torpedo used by the Royal Navy (RN) for several years. The Tigerfish was fitted with both active and passive sonar and could be remotely controlled through a thin wire which connected it to the launching submarine.

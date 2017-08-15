@@ -1,0 +1,12 @@
+Image=campaign/images/astute.jpg
+MissionLocation=Norwegian Sea
+Briefing=Intel reports:
+Briefing=The British Navy is interested in testing the capabilities of the latest models of Russian submarines.
+Briefing=
+Briefing=You reach the rendezvous point. Teach them a lesson!
+Briefing=
+Briefing=Primary Objective:
+Briefing=Beat the Russian submarine.
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Stay undetected.

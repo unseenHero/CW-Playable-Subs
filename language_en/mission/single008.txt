@@ -1,0 +1,14 @@
+Image=campaign/images/seawolf.jpg
+MissionLocation=Norwegian Sea
+Briefing=Intel reports:
+Briefing=The US Navy is interested in testing the capabilities of the hyper-modern German 212A Diesel-Electric attaack submarine.
+Briefing=
+Briefing=You reach the rendezvous point. Teach the new kid in town who is the boss!
+Briefing=
+Briefing=Primary Objective:
+Briefing=Beat the 212A.
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Stay undetected.
+Briefing=
+Briefing=(Mission Submitted By LeopardDriver. Included with permission.)

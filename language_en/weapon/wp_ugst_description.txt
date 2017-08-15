@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=UGST
+WeaponDescriptiveName=UGST Torpedo
+WeaponDescription=The UGST is the most modern torpedo in the Type 53 family. It has a piston engine and uses pump-jet propulsion. As a result it has much more range and a higher speed than any other Type 53 torpedo. 

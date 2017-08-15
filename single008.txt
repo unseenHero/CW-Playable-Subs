@@ -1,0 +1,33 @@
+//Giants II (USA)
+
+UseTerrain=TRUE
+MapCoordinates=1470,946
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+
+//Environment
+Date=05 MAY 2010
+Hemisphere=North
+Time=1200
+UsePresetEnvironment=FALSE
+Weather=RANDOM
+SeaState=Moderate Breeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1
+CombatBehaviour=OFFENSIVE
+EnemyShipClasses=ger_ssn_212a
+FormationCruiseSpeed=12
+
+//Enemy Aircraft
+NumberOfHelicopters=0
+HelicopterType=wp_helix
+NumberOfAircraft=0
+AircraftType=wp_il-38_may
+
+PlayerVessels=usn_ssn_seawolf
+
+OtherVessels=ger_ssn_212a,biologic_blue_whale,biologic_humpback_whale,civ_fv_trawler,civ_mv_ice_breaker,civ_mv_oiler,civ_mv_large_cargo,civ_mv_large_cargo2,civ_mv_small_cargo,civ_mv_small_cargo2,civ_mv_small_cargo3
