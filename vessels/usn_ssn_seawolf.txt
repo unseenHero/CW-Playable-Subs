@@ -103,14 +103,15 @@ MaterialTextures=environment/sky/black
 Mesh=usn_ssn_los_angeles
 MeshPosition=0,0.0094,-0.729
 MeshRudder=usn_ssn_los_angeles_rudders
+MeshPosition=0,0.0027,-0.7329
+MeshSternPlanes=usn_ssn_los_angeles_sternplanes
 
 [Model]
 ModelFile=ships/wp_ssn_sierra/wp_ssn_sierra
 MaterialTextures=environment/sky/black
 MeshPosition=0,0.0300,0.4977
 MeshBowPlanes=wp_ssn_sierra_bowplanes
-MeshPosition=0,0.0027,-0.7329
-MeshSternPlanes=usn_ssn_los_angeles_sternplanes
+
 
 [Model]
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
