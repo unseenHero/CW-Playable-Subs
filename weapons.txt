@@ -2101,8 +2101,10 @@ AudioLoop=FALSE;
 
 WeaponObjectReference=wp_umgt-1
 WeaponType=TORPEDO
-//Warhead=275
-Warhead=200
+//Warhead=275 //in original as at 1.06
+// ** 60kg warhead so no more than 90kg TNT **
+//Warhead=200 //in PSM as at 17 Aug 2017
+Warhead=90
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 WireBreakOnLaunchProbability=0.05
