@@ -1776,6 +1776,7 @@ HomeSettings=PASSIVE,ACTIVE
 AttackSettings=SNAKE,LEFT,RIGHT
 DepthSettings=LEVEL,SHALLOW,DEEP
 MinCameraDistance=0.5
+ResupplyTime=15
 [Model]
 ModelFile=weapons/assets/usn_mk37
 Material=weapons/assets/usn_mk48_mat
