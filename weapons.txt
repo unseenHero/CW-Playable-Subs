@@ -849,7 +849,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=dm2a4_seehecht
-WeaponSprite=hud/default/wp_dm2a4_sprite
+WeaponSprite=hud/default/wp_dm2a4_sprite.png
 WeaponType=TORPEDO
 Warhead=500
 SurfaceLaunched=FALSE
