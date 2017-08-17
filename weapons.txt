@@ -2704,6 +2704,27 @@ MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
 
 
+//wp_depth_bomb_5kt=Nuclear Depth Bomb 5KT=Nuclear Depth Bomb 5 Kiloton Helo-Dropped
+//abstracted 5 kiloton depth bomb eg for Mi-14
+DepthWeaponObjectReference=wp_depth_bomb_5kt
+DepthWeaponWarhead=5000000
+DepthWeaponContactExploded=TRUE
+DepthWeaponDepthExploded=TRUE
+// based on Operation Betty, 30kt, kill 1960s sub at 1 mile, damage at 2 miles. 
+// then apply inverse cube law.
+// (5kt/30kt)^3 = 0.55, * 1740 yds = 960 yds
+DepthWeaponKillRadius=960
+DepthWeaponSinkRate=0.2
+[Model]
+ModelFile=weapons/assets/rgb-60
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=weapons/assets/usn_moss_tx
+MeshPosition=0,0,0
+MeshDepthWeapon=RGB-60
+MeshPosition=0,0,-0.014
+DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+
+
 DepthWeaponObjectReference=wp_proximity_mine
 IsProximityMine=TRUE
 DepthWeaponWarhead=260

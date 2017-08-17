@@ -30,6 +30,8 @@ wp_depth_bomb_250=Depth Bomb PLAB-250=PLAB-250 Heavy Aerial Dropped Depth Bomb
 
 wp_depth_bomb_500=Depth Bomb KAB-500=KAB-500PL Zagon Guided Heavy Aerial Dropped Depth Bomb
 
+wp_depth_bomb_5kt=Nuclear Depth Bomb 5KT=Nuclear Depth Bomb 5 Kiloton Helo-Dropped
+
 
 
 wp_proximity_mine=Proximity Mine=Proximity Mine
