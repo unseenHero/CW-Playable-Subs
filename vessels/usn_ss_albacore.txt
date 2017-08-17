@@ -117,7 +117,7 @@ Mesh=usn_ssn_skipjack_rudders
 MeshRotation=0,0,0
 
 Material=ships/usn_ssn_permit/usn_ssn_permit_mat
-MaterialTextures=ships/usn_ssn_skipjack/usn_ssn_skipjack_tx,ships/usn_ssn_skipjack/usn_ssn_skipjack_spec,ships/usn_ssn_skipjack/usn_ssn_skipjack_nm
+MaterialTextures=terrain/sand
 
 //Contra Props
 MeshPosition=0,0.0002,-0.5636
