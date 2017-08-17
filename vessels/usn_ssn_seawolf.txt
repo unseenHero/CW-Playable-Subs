@@ -137,31 +137,34 @@ ModelFile=ships/wp_vtr_andizhan/wp_vtr_andizhan
 
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
 MaterialTextures=environment/sky/black
-MeshPosition=.014,-0.014,-.68
+MeshPosition=.014,-0.012,-.68
 MeshRotation=13,13,45
 Mesh=wp_vtr_andizhan_rudder
-MeshPosition=-.014,-.014,-.68
+MeshPosition=-.014,-.012,-.68
 MeshRotation=13,-13,-45
 Mesh=wp_vtr_andizhan_rudder
+MeshRotation=0,0,0
 
 //Spar bump
-ModelFile=weapons/assets/usn_mk37
+ModelFile=weapons/assets/usn_moss
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
 MaterialTextures=environment/sky/black
 
-ModelFile=weapons/assets/usn_mk37
-Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MaterialTextures=environment/sky/black
-MeshPosition=-.0568,-.0585,-.71
-Mesh=Mk37
-MeshPosition=-.0553,-.0570,-.711
-Mesh=Mk37
-MeshPosition=.0568,-.0585,-.71
-Mesh=Mk37
-MeshPosition=.0553,-.0570,-.708
-Mesh=Mk37
+MeshPosition=-.0538,-.0544,-.703
+Mesh=MOSS
+MeshPosition=-.0561,-.0558,-.705
+Mesh=MOSS
+MeshPosition=-.0579,-.0576,-.707
+Mesh=MOSS
+MeshPosition=.0538,-.0544,-.703
+Mesh=MOSS
+MeshPosition=.0561,-.0558,-.705
+Mesh=MOSS
+MeshPosition=.0579,-.0576,-.707
+Mesh=MOSS
 
 //Duct
+ModelFile=weapons/assets/usn_mk37
 MeshPosition=0.04,0.0029,-0.8013
 MeshRotation=8,16,0
 Mesh=Mk37
