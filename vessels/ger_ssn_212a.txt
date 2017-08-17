@@ -103,12 +103,18 @@ MaterialTextures=environment/sky/black
 Mesh=wp_ssn_alfa
 MeshPosition=0,0,-0.4993
 MeshRudder=wp_ssn_alfa_rudder
-MeshPosition=0,0,0.4612
-MeshBowPlanes=wp_ssn_alfa_bowplanes
+MeshPosition=0,.083,.222
+MeshBowPlanes=wp_ssn_alfa_sternplanes
 MeshPosition=0,0,-0.4993
+
 MeshSternPlanes=wp_ssn_alfa_sternplanes
-MeshPosition=-0.0,0,-0.5717
-MeshProp=wp_ssn_alfa_prop
+
+//Prop
+ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
+Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
+MaterialTextures=terrain/sand
+MeshPosition=-0.0,0,-0.565
+MeshProp=usn_ssn_skipjack_prop
 
 Material=ships/materials/usn_masts
 MeshPosition=-0.0072,0.075,0.317
