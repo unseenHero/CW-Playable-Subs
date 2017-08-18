@@ -392,7 +392,7 @@ SensorAngles=60,15
 SensorRange=1250
 WeaponNoiseValues=120,120
 MaxPitchAngle=25
-HomeSettings=PASSIVE,ACTIVE
+HomeSettings=PASSIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
 DepthSettings=LEVEL,SHALLOW,DEEP
 MinCameraDistance=0.5
@@ -417,12 +417,6 @@ AudioRollOff=LOGARITHMIC
 AudioDistance=1,25
 AudioPitch=1
 AudioLoop=TRUE
-AudioSource=TorpedoSonarPing
-AudioClip=audio/environment/sonar_ping_short
-AudioRollOff=LOGARITHMIC
-AudioDistance=1,25
-AudioPitch=1.2
-AudioLoop=FALSE;
 [/Model]
 
 WeaponObjectReference=uk_mk8
