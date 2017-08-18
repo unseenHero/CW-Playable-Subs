@@ -110,10 +110,6 @@ MeshPosition=0,0.08523,0.58
 MeshBowPlanes=wp_ssbn_yankee_sailplanes
 MeshPosition=0,-0.03299,-0.7925
 MeshSternPlanes=wp_ssbn_yankee_sternplanes
-MeshPosition=-0.035,-0.03254,-0.898
-MeshProp=wp_ssbn_yankee_prop_l
-MeshPosition=.035,-0.03254,-0.898
-MeshProp=wp_ssbn_yankee_prop_r
 
 [Model]
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
@@ -129,6 +125,13 @@ MeshMast=usn_ssn_permit_esm_mast
 MeshPosition=0,0.025,0.500
 MastHeight=0.085
 MeshMast=usn_ssn_permit_radar_mast
+
+ModelFile=ships/wp_ssbn_yankee/wp_ssbn_yankee
+MeshPosition=-0.035,-0.03254,-0.898
+MeshProp=wp_ssbn_yankee_prop_l
+MeshPosition=.035,-0.03254,-0.898
+MeshProp=wp_ssbn_yankee_prop_r
+MaterialTextures=ships/wp_ssbn_yankee/wp_ssbn_yankee_tx,ships/wp_ssbn_yankee/wp_ssbn_yankee_spec,ships/wp_ssbn_yankee/wp_ssbn_yankee_nm
 
 [Weapon Systems]
 //Torpedo Mounts

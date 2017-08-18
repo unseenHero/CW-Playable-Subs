@@ -33,7 +33,7 @@ SelfNoise=148
 ActiveSonarReflection=25
 ActiveSonarModel=usn_an_bqs_4
 PassiveSonarModel=usn_an_bqr_2
-TowedArrayModel=FALSE
+TowedArrayModel=usn_bqr_25
 AnechoicCoating=FALSE
 RADAR=usn_bps_12
 RADARSignature=SMALL
@@ -109,15 +109,15 @@ MeshSternPlanes=usn_ssn_skipjack_sternplanes
 
 //Tail Fins
 MeshRotation=0,0,45
-MeshPosition=0,-0.0016,-0.518
+MeshPosition=0,-0.0016,-0.508
 Mesh=usn_ssn_skipjack_rudders
 MeshRotation=0,0,-45
-MeshPosition=0,0,-0.518
+MeshPosition=0,0,-0.521
 Mesh=usn_ssn_skipjack_rudders
 MeshRotation=0,0,0
 
 Material=ships/usn_ssn_permit/usn_ssn_permit_mat
-MaterialTextures=ships/usn_ssn_skipjack/usn_ssn_skipjack_tx,ships/usn_ssn_skipjack/usn_ssn_skipjack_spec,ships/usn_ssn_skipjack/usn_ssn_skipjack_nm
+MaterialTextures=terrain/sand
 
 //Contra Props
 MeshPosition=0,0.0002,-0.5636
