@@ -28,6 +28,9 @@ StatusESMMast=hud/russian/icon_status_esm.png
 
 StatusEventCamera=hud/russian/icon_status_event_camera.png
 
+StatusCourse=hud/russian/icon_status_course.png
+StatusDepth=hud/russian/icon_status_depth.png
+
 [Camera Bearing]
 CameraBearingMarker=hud/russian/marker.png
 PlayerMarkerColor=210,170,120,255
@@ -36,12 +39,12 @@ PlayerMarkerColor=210,170,120,255
 MessageLogBackground=hud/russian/log_background.png
 LogDefault=255,255,255,255
 LogHelm=97,251,246,255
+LogManeuver=0,255,255,255
 LogSonar=0,255,0,255
 LogTorpedoRoom=174,174,255,255
 LogFireControl=180,180,180,255
 LogXO=255,210,60,255
 LogWarning=255,0,0,255
-LogVoiceVolume=1
 
 [Other Panels]
 BackgroundBlockColor=51,51,51,255
@@ -69,6 +72,8 @@ SignatureIconPrev=hud/russian/arrow_prev.png
 SignatureIconSelect=hud/russian/checkbox_filled.png
 
 StoresPanel=hud/russian/stores.png
+StoresPanelCombat=hud/russian/stores_combat.png
+StoresPanelPort=hud/russian/stores_port.png
 StoresTextColor1=0,0,0,255
 StoresTextColor2=255,255,255,255
 StoresTextColor3=128,0,0,255
@@ -90,6 +95,11 @@ TorpedoTubeUnselected=hud/russian/tube_unselected.png
 TorpedoTubeDestroyed=hud/russian/tube_destroyed.png
 TorpedoTubeWire=hud/russian/tube_wire.png
 VerticalLaunchSystemTextColor=255,0,0,255
+WeaponHighlight=hud/russian/weapon_type_frame.png
+
+[Buttons]
+ButtonOffColor=52,165,120,255
+ButtonOnColor=70,255,245,255
 
 TorpedoSettingStraightSearch=hud/russian/icon_straight_search.png
 TorpedoSettingSnakeSearch=hud/russian/icon_snake_search.png
@@ -105,6 +115,45 @@ MissileSettingNarrowCone=hud/russian/icon_missile_narrow.png
 MissileSettingSkim=hud/russian/icon_level.png
 MissileSettingPopUp=hud/russian/icon_popup.png
 
+
+GenericArrowUp=hud/russian/icon_uparrow.png
+GenericArrowDown=hud/russian/icon_downarrow.png
+GenericArrowLeft=hud/russian/icon_leftarrow.png
+GenericArrowRight=hud/russian/icon_rightarrow.png
+
+ButtonSilentRunning=hud/russian/icon_ultra_quiet.png
+ButtonPlotCourse=hud/russian/icon_plot_course.png
+TelegraphDisplayValues=B,0,1,2,3,4,5
+TelegraphDisplayMarker=hud/russian/helm_indicator_light.png
+ButtonPeriscopeDepth=hud/russian/icon_periscope_depth.png
+ButtonEmergencyDeep=hud/russian/icon_emergency_deep.png
+ButtonEmergencyBlow=hud/russian/icon_emergency_surface.png
+ButtonPeriscope=hud/russian/icon_periscope.png
+ButtonESM=hud/russian/icon_esm.png
+ButtonRadar=hud/russian/icon_radar.png
+ButtonSonarMode=hud/russian/icon_active_sonar.png
+ButtonNoisemaker=hud/russian/icon_decoy.png
+
+ButtonNightVision=hud/russian/icon_lltv.png
+ButtonMarkTarget=hud/russian/icon_mark.png
+
+ButtonCutWire=hud/russian/icon_cut_wire.png
+ButtonEnableTorpedo=hud/russian/icon_enable.png
+ButtonEditTorpedoWaypoint=hud/russian/icon_plot_course.png
+ButtonNextTube=hud/russian/icon_next_tube.png
+ButtonLoadTube=hud/russian/icon_load_tube.png
+ButtonFireTube=hud/russian/icon_fire_tube.png
+
+ButtonAutoCenterMap=hud/russian/icon_center_map.png
+
+[Toolbars]
+HelmMaximized=hud/russian/helm_maximized.png
+HelmMinimized=hud/russian/helm_minimized.png
+DiveMaximized=hud/russian/dive_maximized.png
+DiveMinimized=hud/russian/dive_minimized.png
+SensorsMaximized=hud/russian/sensors_maximized.png
+SensorsMinimized=hud/russian/sensors_minimized.png
+
 [Recognition Manual]
 UnitReferenceMain=hud/russian/unit_ref_main.png
 UnitReferenceSecondary=hud/russian/unit_ref_info_window.png
@@ -118,24 +167,15 @@ UnitReferenceIconPrev=hud/russian/arrow_prev.png
 UnitReferenceIconSelect=hud/russian/checkbox_filled.png
 UnitReferenceIconHighlightMarker=hud/russian/arrow_next.png
 
-[Periscope]
+[Periscope & Masts]
 PeriscopeESMMeter=hud/russian/esm_frame.png
+PeriscopeESMMeterFill=hud/russian/esm_level_bar.png
+PeriscopeESMMeterColor=196,70,70,255
+PeriscopeToolbar=hud/russian/periscope_tools_background.png
 PeriscopeESMMeterTextColorOn=
 PeriscopeESMMeterTextColorOff=
 PeriscopeMaskDay=hud/russian/periscope_day.png
 PeriscopeMaskNight=hud/russian/periscope_night.png
-
-[ESM Meter]
-ESMOffColor=0,0,0,255
-ESMColor1=141,198,63,255
-ESMColor2=141,198,63,255
-ESMColor3=141,198,63,255
-ESMColor4=247,148,29,255
-ESMColor5=247,148,29,255
-ESMColor6=247,148,29,255
-ESMColor7=255,0,0,255
-ESMColor8=255,0,0,255
-ESMColor9=255,0,0,255
 
 [Tactical Map]
 TacticalMapBackground=hud/russian/tacmap_background.png
@@ -188,6 +228,8 @@ FilterOverlay=TRUE
 //All positions in screen pixels
 //From element's default anchored screen corner/position
 BottomLeftPanelPos=0,0
+//Toolbar position 0,0, 1 to anchor to minimap or 0 for no anchor
+ToolbarsPos=0,0,1
 BottomRightPanelPos=0,0
 UpperRightStatusIcons=0,-3
 UpperCentreBearingTapePos=0,-2

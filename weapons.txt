@@ -1659,18 +1659,13 @@ MeshWeaponPropRotation=-700
 MeshWeaponProp=SET-65_propr
 MeshPosition=0,0,-0.0718
 CavitationParticle=weapons/assets/torpedo_cavitation_particle
+
 AudioSource=TorpedoEngine
 AudioClip=audio/weapons/torpedo_in_water_loop
 AudioRollOff=LOGARITHMIC
 AudioDistance=1,25
 AudioPitch=1
 AudioLoop=TRUE
-AudioSource=TorpedoSonarPing
-AudioClip=audio/environment/sonar_ping_short
-AudioRollOff=LOGARITHMIC
-AudioDistance=1,25
-AudioPitch=1.2
-AudioLoop=FALSE;
 [/Model]
 
 WeaponObjectReference=wp_65-76
@@ -1683,7 +1678,7 @@ RangeInYards=54700
 RunSpeed=40
 ActiveRunSpeed=50
 TurnRate=20
-SensorAngles=0,0
+SensorAngles=60,15
 SensorRange=2500
 WeaponNoiseValues=120,230
 MaxPitchAngle=25
@@ -1704,18 +1699,13 @@ MeshWeaponPropRotation=-700
 MeshWeaponProp=SET-65_propr
 MeshPosition=0,0,-0.0718
 CavitationParticle=weapons/assets/torpedo_cavitation_particle
+
 AudioSource=TorpedoEngine
 AudioClip=audio/weapons/torpedo_in_water_loop
 AudioRollOff=LOGARITHMIC
 AudioDistance=1,25
 AudioPitch=1
 AudioLoop=TRUE
-AudioSource=TorpedoSonarPing
-AudioClip=audio/environment/sonar_ping_short
-AudioRollOff=LOGARITHMIC
-AudioDistance=1,25
-AudioPitch=1.2
-AudioLoop=FALSE;
 [/Model]
 // -------------------------------------------------------------------- End New Weapons --------------------------------------------------------------------
 
