@@ -2,6 +2,9 @@
 MenuCameraRect=0,0,1,1
 MenuCameraOrthographicSize=DEFAULT
 MenuPixelDensity=2
+LoadVideos=TRUE
+
+GenerateFullLog=TRUE
 
 [Music]
 MusicMainMenu=audio/music/Cold Waters Main Menu
@@ -53,7 +56,7 @@ MaintainContactThreshold=1
 ContactProfileGraphicFactor=2
 
 NavigationSonarRange=4000
-MADDetectionRangeInYards=500
+MADDetectionRangeInYards=400
 NearbyVesselMinDistance=15000
 NearbyWeaponMinDistance=10000
 NearbyAircraftMinDistance=10000

@@ -29,7 +29,8 @@ StatusRADARMast=hud/uk/icon_status_radar.png
 StatusESMMast=hud/uk/icon_status_esm.png
 
 StatusEventCamera=hud/uk/icon_status_event_camera.png
-
+StatusCourse=hud/uk/icon_status_course.png
+StatusDepth=hud/uk/icon_status_depth.png
 [Camera Bearing]
 CameraBearingMarker=hud/uk/marker.png
 PlayerMarkerColor=210,170,120,255
@@ -38,12 +39,13 @@ PlayerMarkerColor=210,170,120,255
 MessageLogBackground=hud/uk/log_background.png
 LogDefault=255,255,255,255
 LogHelm=97,251,246,255
+LogManeuver=0,255,255,255						 
 LogSonar=0,255,0,255
 LogTorpedoRoom=90,90,255,255
 LogFireControl=180,180,180,255
 LogXO=255,210,60,255
 LogWarning=255,0,0,255
-LogVoiceVolume=1
+
 
 [Other Panels]
 BackgroundBlockColor=51,51,51,255
@@ -71,10 +73,12 @@ SignatureIconPrev=hud/uk/arrow_prev.png
 SignatureIconSelect=hud/uk/checkbox_filled.png
 
 StoresPanel=hud/uk/stores.png
+StoresPanelCombat=hud/uk/stores_combat.png
+StoresPanelPort=hud/uk/stores_port.png
 StoresTextColor1=0,0,0,255
 StoresTextColor2=255,255,255,255
 StoresTextColor3=128,0,0,255
-CommandoIcon=hud/uk/commando.png
+CommandoIcon=hud/uk/seal.png
 NoisemakerIcon=hud/uk/noisemaker_sprite.png
 
 DamageControlPanel=hud/uk/damage_control.png
@@ -92,7 +96,11 @@ TorpedoTubeUnselected=hud/uk/tube_unselected.png
 TorpedoTubeDestroyed=hud/uk/tube_destroyed.png
 TorpedoTubeWire=hud/uk/tube_wire.png
 VerticalLaunchSystemTextColor=74,163,201,255
+WeaponHighlight=hud/uk/weapon_type_frame.png
 
+[Buttons]
+ButtonOffColor=52,165,120,255
+ButtonOnColor=70,255,245,255
 TorpedoSettingStraightSearch=hud/uk/icon_straight_search.png
 TorpedoSettingSnakeSearch=hud/uk/icon_snake_search.png
 TorpedoSettingLeftSearch=hud/uk/icon_left_search.png
@@ -107,6 +115,43 @@ MissileSettingNarrowCone=hud/uk/icon_missile_narrow.png
 MissileSettingSkim=hud/uk/icon_level.png
 MissileSettingPopUp=hud/uk/icon_popup.png
 
+GenericArrowUp=hud/uk/icon_uparrow.png
+GenericArrowDown=hud/uk/icon_downarrow.png
+GenericArrowLeft=hud/uk/icon_leftarrow.png
+GenericArrowRight=hud/uk/icon_rightarrow.png
+
+ButtonSilentRunning=hud/uk/icon_ultra_quiet.png
+ButtonPlotCourse=hud/uk/icon_plot_course.png
+TelegraphDisplayValues=B,0,1,2,3,4,5
+TelegraphDisplayMarker=hud/uk/helm_indicator_light.png
+ButtonPeriscopeDepth=hud/uk/icon_periscope_depth.png
+ButtonEmergencyDeep=hud/uk/icon_emergency_deep.png
+ButtonEmergencyBlow=hud/uk/icon_emergency_surface.png
+ButtonPeriscope=hud/uk/icon_periscope.png
+ButtonESM=hud/uk/icon_esm.png
+ButtonRadar=hud/uk/icon_radar.png
+ButtonSonarMode=hud/uk/icon_active_sonar.png
+ButtonNoisemaker=hud/uk/icon_decoy.png
+
+ButtonNightVision=hud/uk/icon_lltv.png
+ButtonMarkTarget=hud/uk/icon_mark.png
+
+ButtonCutWire=hud/uk/icon_cut_wire.png
+ButtonEnableTorpedo=hud/uk/icon_enable.png
+ButtonEditTorpedoWaypoint=hud/uk/icon_plot_course.png
+ButtonNextTube=hud/uk/icon_next_tube.png
+ButtonLoadTube=hud/uk/icon_load_tube.png
+ButtonFireTube=hud/uk/icon_fire_tube.png
+
+ButtonAutoCenterMap=hud/uk/icon_center_map.png
+
+[Toolbars]
+HelmMaximized=hud/uk/helm_maximized.png
+HelmMinimized=hud/uk/helm_minimized.png
+DiveMaximized=hud/uk/dive_maximized.png
+DiveMinimized=hud/uk/dive_minimized.png
+SensorsMaximized=hud/uk/sensors_maximized.png
+SensorsMinimized=hud/uk/sensors_minimized.png
 [Recognition Manual]
 UnitReferenceMain=hud/uk/unit_ref_main.png
 UnitReferenceSecondary=hud/uk/unit_ref_info_window.png
@@ -122,22 +167,13 @@ UnitReferenceIconHighlightMarker=hud/uk/arrow_next.png
 
 [Periscope]
 PeriscopeESMMeter=hud/uk/esm_frame.png
+PeriscopeESMMeterFill=hud/uk/esm_level_bar.png
+PeriscopeESMMeterColor=196,70,70,255
+PeriscopeToolbar=hud/uk/periscope_tools_background.png
 PeriscopeESMMeterTextColorOn=
 PeriscopeESMMeterTextColorOff=
 PeriscopeMaskDay=hud/uk/periscope_day.png
 PeriscopeMaskNight=hud/uk/periscope_night.png
-
-[ESM Meter]
-ESMOffColor=0,0,0,255
-ESMColor1=141,198,63,255
-ESMColor2=141,198,63,255
-ESMColor3=141,198,63,255
-ESMColor4=247,148,29,255
-ESMColor5=247,148,29,255
-ESMColor6=247,148,29,255
-ESMColor7=255,0,0,255
-ESMColor8=255,0,0,255
-ESMColor9=255,0,0,255
 
 [Tactical Map]
 TacticalMapBackground=hud/uk/tacmap_background.png
@@ -190,6 +226,8 @@ FilterOverlay=TRUE
 //All positions in screen pixels
 //From element's default anchored screen corner/position
 BottomLeftPanelPos=0,0
+//Toolbar position 0,0, 1 to anchor to minimap or 0 for no anchor
+ToolbarsPos=0,0,1		 
 BottomRightPanelPos=0,0
 UpperRightStatusIcons=0,-3
 UpperCentreBearingTapePos=0,-2
