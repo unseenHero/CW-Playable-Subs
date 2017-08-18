@@ -110,8 +110,6 @@ MeshPosition=0,0.1287,0.3291
 MeshBowPlanes=usn_ssn_narwhal_sailplanes
 MeshPosition=0,0,-0.632
 MeshSternPlanes=usn_ssn_narwhal_sternplanes
-MeshPosition=0,-0.0042,-0.6914
-MeshProp=usn_ssn_narwhal_prop
 
 Material=ships/materials/usn_masts
 MeshPosition=0.002,0.075,0.3062
@@ -125,6 +123,11 @@ MeshMast=usn_ssn_narwhal_esm_mast
 MeshPosition=0.001,0.075,0.3525
 MastHeight=0.085
 MeshMast=usn_ssn_narwhal_radar_mast
+
+ModelFile=ships/usn_ssn_narwhal/usn_ssn_narwhal
+MeshPosition=0,-0.0042,-0.6914
+MeshProp=usn_ssn_narwhal_prop
+MaterialTextures=ships/usn_ssn_narwhal/usn_ssn_narwhal_tx,ships/usn_ssn_narwhal/usn_ssn_narwhal_spec,ships/usn_ssn_narwhal/usn_ssn_narwhal_nm
 
 [Weapon Systems]
 //Torpedo Mounts
