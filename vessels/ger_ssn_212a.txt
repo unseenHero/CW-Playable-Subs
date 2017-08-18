@@ -103,8 +103,8 @@ MaterialTextures=environment/sky/black
 Mesh=wp_ssn_alfa
 MeshPosition=0,0,-0.4993
 MeshRudder=wp_ssn_alfa_rudder
-MeshPosition=0,0,0.4612
-MeshBowPlanes=wp_ssn_alfa_bowplanes
+MeshPosition=0,.083,.222
+MeshBowPlanes=wp_ssn_alfa_sternplanes
 MeshPosition=0,0,-0.4993
 MeshSternPlanes=wp_ssn_alfa_sternplanes
 
