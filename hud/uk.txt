@@ -29,10 +29,8 @@ StatusRADARMast=hud/uk/icon_status_radar.png
 StatusESMMast=hud/uk/icon_status_esm.png
 
 StatusEventCamera=hud/uk/icon_status_event_camera.png
-
 StatusCourse=hud/uk/icon_status_course.png
 StatusDepth=hud/uk/icon_status_depth.png
-
 [Camera Bearing]
 CameraBearingMarker=hud/uk/marker.png
 PlayerMarkerColor=210,170,120,255
@@ -41,12 +39,13 @@ PlayerMarkerColor=210,170,120,255
 MessageLogBackground=hud/uk/log_background.png
 LogDefault=255,255,255,255
 LogHelm=97,251,246,255
-LogManeuver=0,255,255,255
+LogManeuver=0,255,255,255						 
 LogSonar=0,255,0,255
 LogTorpedoRoom=90,90,255,255
 LogFireControl=180,180,180,255
 LogXO=255,210,60,255
 LogWarning=255,0,0,255
+
 
 [Other Panels]
 BackgroundBlockColor=51,51,51,255
@@ -79,7 +78,7 @@ StoresPanelPort=hud/uk/stores_port.png
 StoresTextColor1=0,0,0,255
 StoresTextColor2=255,255,255,255
 StoresTextColor3=128,0,0,255
-CommandoIcon=hud/uk/commando.png
+CommandoIcon=hud/uk/seal.png
 NoisemakerIcon=hud/uk/noisemaker_sprite.png
 
 DamageControlPanel=hud/uk/damage_control.png
@@ -97,12 +96,11 @@ TorpedoTubeUnselected=hud/uk/tube_unselected.png
 TorpedoTubeDestroyed=hud/uk/tube_destroyed.png
 TorpedoTubeWire=hud/uk/tube_wire.png
 VerticalLaunchSystemTextColor=74,163,201,255
-WeaponHighlight=hud/default/weapon_type_frame.png
+WeaponHighlight=hud/uk/weapon_type_frame.png
 
 [Buttons]
 ButtonOffColor=52,165,120,255
 ButtonOnColor=70,255,245,255
-
 TorpedoSettingStraightSearch=hud/uk/icon_straight_search.png
 TorpedoSettingSnakeSearch=hud/uk/icon_snake_search.png
 TorpedoSettingLeftSearch=hud/uk/icon_left_search.png
@@ -154,7 +152,6 @@ DiveMaximized=hud/uk/dive_maximized.png
 DiveMinimized=hud/uk/dive_minimized.png
 SensorsMaximized=hud/uk/sensors_maximized.png
 SensorsMinimized=hud/uk/sensors_minimized.png
-
 [Recognition Manual]
 UnitReferenceMain=hud/uk/unit_ref_main.png
 UnitReferenceSecondary=hud/uk/unit_ref_info_window.png
@@ -168,7 +165,7 @@ UnitReferenceIconPrev=hud/uk/arrow_prev.png
 UnitReferenceIconSelect=hud/uk/checkbox_filled.png
 UnitReferenceIconHighlightMarker=hud/uk/arrow_next.png
 
-[Periscope & Masts]
+[Periscope]
 PeriscopeESMMeter=hud/uk/esm_frame.png
 PeriscopeESMMeterFill=hud/uk/esm_level_bar.png
 PeriscopeESMMeterColor=196,70,70,255
@@ -230,7 +227,7 @@ FilterOverlay=TRUE
 //From element's default anchored screen corner/position
 BottomLeftPanelPos=0,0
 //Toolbar position 0,0, 1 to anchor to minimap or 0 for no anchor
-ToolbarsPos=0,0,1
+ToolbarsPos=0,0,1		 
 BottomRightPanelPos=0,0
 UpperRightStatusIcons=0,-3
 UpperCentreBearingTapePos=0,-2

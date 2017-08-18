@@ -1,5 +1,5 @@
 ﻿[Player Data Panel]
-PlayerDataColor1=65,173,77,255
+PlayerDataColor1=255,0,0,255
 PlayerDataColor2=151,255,144,255
 ContactAboveLayer=hud/russian/icon_arrow_up.png
 ContactBelowLayer=hud/russian/icon_arrow_down.png
@@ -65,8 +65,8 @@ ConditionsLayer=hud/russian/svp_layer.png
 
 SignaturePanel=hud/russian/contact_analysis.png
 SignatureTextColor1=255,0,0,255
-SignatureTextColor2=255,0,0,255
-SignatureIconColor=65,173,77,255
+SignatureTextColor2=151,255,144,255
+SignatureIconColor=255,0,0,255
 SignatureIconNext=hud/russian/arrow_next.png
 SignatureIconPrev=hud/russian/arrow_prev.png
 SignatureIconSelect=hud/russian/checkbox_filled.png
@@ -76,8 +76,8 @@ StoresPanelCombat=hud/russian/stores_combat.png
 StoresPanelPort=hud/russian/stores_port.png
 StoresTextColor1=0,0,0,255
 StoresTextColor2=255,255,255,255
-StoresTextColor3=128,0,0,255
-CommandoIcon=hud/russian/commando.png
+StoresTextColor3=255,255,255,255
+CommandoIcon=hud/russian/seal.png
 NoisemakerIcon=hud/russian/noisemaker_sprite.png
 
 DamageControlPanel=hud/russian/damage_control.png
@@ -94,7 +94,7 @@ TorpedoTubeSelected=hud/russian/tube_selected.png
 TorpedoTubeUnselected=hud/russian/tube_unselected.png
 TorpedoTubeDestroyed=hud/russian/tube_destroyed.png
 TorpedoTubeWire=hud/russian/tube_wire.png
-VerticalLaunchSystemTextColor=255,0,0,255
+VerticalLaunchSystemTextColor=128,128,128,255
 WeaponHighlight=hud/russian/weapon_type_frame.png
 
 [Buttons]
@@ -114,7 +114,6 @@ MissileSettingWideCone=hud/russian/icon_missile_wide.png
 MissileSettingNarrowCone=hud/russian/icon_missile_narrow.png
 MissileSettingSkim=hud/russian/icon_level.png
 MissileSettingPopUp=hud/russian/icon_popup.png
-
 
 GenericArrowUp=hud/russian/icon_uparrow.png
 GenericArrowDown=hud/russian/icon_downarrow.png
