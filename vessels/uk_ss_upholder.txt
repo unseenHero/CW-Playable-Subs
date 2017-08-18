@@ -129,11 +129,6 @@ MeshPosition=0,0.075,0.1036
 MastHeight=0.085
 MeshMast=usn_ssn_los_angeles_radar_mast
 
-ModelFile=ships/wp_ss_kilo/wp_ss_kilo
-MeshPosition=-0.0,-0.0056,-0.5295
-MeshProp=wp_ss_kilo_prop
-MaterialTextures=terrain/sand
-
 //Bowplanes Blank
 ModelFile=ships/wp_bpk_udaloy/wp_bpk_udaloy
 MeshRotation=0,0,0
@@ -155,6 +150,11 @@ MeshPosition=-0.022,0.025,-0.1288
 Mesh=usn_ssn_permit_wlr9
 MeshPosition=-0.022,0.033,-0.1288
 Mesh=usn_ssn_permit_wlr9
+
+ModelFile=ships/wp_ss_kilo/wp_ss_kilo
+MeshPosition=-0.0,-0.0056,-0.5295
+MeshProp=wp_ss_kilo_prop
+MaterialTextures=terrain/sand
 
 [Weapon Systems]
 //Torpedo Mounts
