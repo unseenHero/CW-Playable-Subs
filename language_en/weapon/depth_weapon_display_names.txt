@@ -32,6 +32,7 @@ wp_depth_bomb_500=Depth Bomb KAB-500=KAB-500PL Zagon Guided Heavy Aerial Dropped
 
 wp_depth_bomb_5kt=Nuclear Depth Bomb 5KT=Nuclear Depth Bomb 5 Kiloton Helo-Dropped
 
+usn_depth_bomb_10kt=Nuclear Depth Bomb 10KT=10 Kiloton W44 Nuclear Depth Bomb either standalone or used in ASROC
 
 
 wp_proximity_mine=Proximity Mine=Proximity Mine
