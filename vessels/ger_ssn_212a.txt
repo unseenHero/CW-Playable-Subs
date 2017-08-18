@@ -107,8 +107,6 @@ MeshPosition=0,0,0.4612
 MeshBowPlanes=wp_ssn_alfa_bowplanes
 MeshPosition=0,0,-0.4993
 MeshSternPlanes=wp_ssn_alfa_sternplanes
-MeshPosition=-0.0,0,-0.5717
-MeshProp=wp_ssn_alfa_prop
 
 Material=ships/materials/usn_masts
 MeshPosition=-0.0072,0.075,0.317
@@ -122,6 +120,11 @@ MeshMast=usn_ssn_los_angeles_esm_mast
 MeshPosition=-0.003,0.075,0.3487
 MastHeight=0.085
 MeshMast=usn_ssn_los_angeles_radar_mast
+
+ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
+MaterialTextures=terrain/sand
+MeshPosition=-0.0,0,-0.5717
+MeshProp=usn_ssn_los_angeles_prop
 
 [Weapon Systems]
 //Torpedo Mounts
