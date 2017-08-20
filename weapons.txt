@@ -8,7 +8,10 @@
 WeaponObjectReference=usn_mk48_adcap
 WeaponSprite=weapons/sprites/usn_mk48_sprite
 WeaponType=TORPEDO
-Warhead=650
+//Incorrect PSM value (this is the value in pounds not kg)
+//Warhead=650
+//292.5 kg of PBXN-103 = 544 kg of TNT - same warhead as standard Mk48
+Warhead=550
 SurfaceLaunched=FALSE
 WireGuided=TRUE
 WireBreakOnLaunchProbability=0.05
@@ -468,7 +471,7 @@ WeaponType=TORPEDO
 //original PSM value is too high for this lightweight airdropped torp
 //Warhead=200
 //warhead is 44.5kg of PBXN-103, assume 1.86 x TNT as per Mk48
-Warhead=83
+Warhead=85
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 RangeInYards=11000
@@ -513,7 +516,10 @@ AudioLoop=FALSE;
 WeaponObjectReference=usn_mk46asroc_early
 WeaponSprite=weapons/sprites/usn_mk16_sprite
 WeaponType=TORPEDO
-Warhead=200
+//original PSM value is too high for this lightweight airdropped torp
+//Warhead=200
+//warhead is 44.5kg of PBXN-103, assume 1.86 x TNT as per Mk48
+Warhead=85
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 RangeInYards=8300
@@ -557,7 +563,10 @@ AudioLoop=FALSE;
 
 WeaponObjectReference=usn_mk46
 WeaponType=TORPEDO
-Warhead=200
+//original PSM value is too high for this lightweight airdropped torp
+//Warhead=200
+//warhead is 44.5kg of PBXN-103, assume 1.86 x TNT as per Mk48
+Warhead=85
 SurfaceLaunched=TRUE
 WireGuided=FALSE
 RangeInYards=11000
@@ -602,7 +611,10 @@ AudioLoop=FALSE;
 WeaponObjectReference=usn_mk46_early
 WeaponSprite=weapons/sprites/usn_mk16_sprite
 WeaponType=TORPEDO
-Warhead=200
+//original PSM value is too high for this lightweight airdropped torp
+//Warhead=200
+//warhead is 44.5kg of PBXN-103, assume 1.86 x TNT as per Mk48
+Warhead=85
 SurfaceLaunched=TRUE
 WireGuided=FALSE
 RangeInYards=8300
@@ -1814,6 +1826,7 @@ AudioLoop=FALSE;
 WeaponObjectReference=usn_mk48
 WeaponSprite=weapons/sprites/usn_mk48_sprite
 WeaponType=TORPEDO
+//292.5 kg of PBXN-103 = 544 kg of TNT
 Warhead=550
 SurfaceLaunched=FALSE
 WireGuided=TRUE
