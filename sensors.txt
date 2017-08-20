@@ -11,6 +11,15 @@ SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
 
+SonarModel=ae_tas3
+SonarType=TOWED
+SonarFrequencies=VL,L
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=48
+SonarBaffle=FALSE
+SonarNoisePerKnot=2
+SonarOutput=0
+
 SonarModel=aus_tss
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,M
