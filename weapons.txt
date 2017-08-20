@@ -1736,6 +1736,7 @@ AudioLoop=TRUE
 WeaponObjectReference=usn_mk16
 WeaponSprite=weapons/sprites/usn_mk16_sprite
 WeaponType=TORPEDO
+//435 kg HBX 1.5 = 652 kg TNT-equivalent
 Warhead=650
 SurfaceLaunched=FALSE
 MaxLaunchDepth=100
@@ -1779,7 +1780,7 @@ AudioLoop=TRUE
 WeaponObjectReference=usn_mk37
 WeaponSprite=weapons/sprites/usn_mk37_sprite
 WeaponType=TORPEDO
-//Warhead 150kg of HBX
+//Warhead 150kg of HBX x 1.5 = 225kg TNT-equivalent
 Warhead=225
 SurfaceLaunched=FALSE
 SwimOut=TRUE
