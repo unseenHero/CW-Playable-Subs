@@ -2681,7 +2681,7 @@ MeshDepthWeapon=RGB-60
 MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
 
-
+//PLAB-50-64 62kg helicopter depth bomb
 DepthWeaponObjectReference=wp_depth_bomb_50
 DepthWeaponWarhead=50
 DepthWeaponContactExploded=TRUE
@@ -2697,7 +2697,7 @@ MeshDepthWeapon=RGB-60
 MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
 
-
+//PLAB-250-120 120kg helicopter depth bomb
 DepthWeaponObjectReference=wp_depth_bomb_120
 // assume Soviet version of Torpex so > equal weight of TNT but less than full munition weight
 DepthWeaponWarhead=120
@@ -2716,23 +2716,8 @@ MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
 
 
-DepthWeaponObjectReference=wp_depth_bomb_250
-DepthWeaponWarhead=250
-DepthWeaponContactExploded=TRUE
-DepthWeaponDepthExploded=TRUE
-// based on 100kg = 10m damage (not kill) radius, inverse cube law
-DepthWeaponKillRadius=14
-DepthWeaponSinkRate=0.2
-[Model]
-ModelFile=weapons/assets/rgb-60
-Material=weapons/assets/usn_moss_mat
-MaterialTextures=weapons/assets/usn_moss_tx
-MeshPosition=0,0,0
-MeshDepthWeapon=RGB-60
-MeshPosition=0,0,-0.014
-DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
-
 //wp_depth_bomb_500=Depth Bomb KAB-500=KAB-500PL Zagon Guided Heavy Aerial Dropped Depth Bomb
+//Fixed wing aircraft only
 DepthWeaponObjectReference=wp_depth_bomb_500
 DepthWeaponWarhead=500
 DepthWeaponContactExploded=TRUE
@@ -2750,8 +2735,32 @@ MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
 
 
+//wp_depth_bomb_1kt=Nuclear Depth Bomb1KT=Nuclear Depth Bomb 1 Kiloton
+//5F48 (SK-1) Skalp ("scalp") nuclear depth bomb, 1600 kg, 1 kiloton
+//Used on Mi-14 and probably also Ka-25, Ka-27, and MPAs
+DepthWeaponObjectReference=wp_depth_bomb_1kt
+DepthWeaponWarhead=1000000
+DepthWeaponContactExploded=TRUE
+DepthWeaponDepthExploded=TRUE
+// based on Operation Wigwam, Mk 90 "Betty" US nuclear depth charge:
+// 30kt, kill 1960s sub at 1 mile, damage at 2 miles. 
+// then apply inverse cube law.
+// (1kt/30kt)^1/3 = 0.32, * 1760 yds = 566 yds
+DepthWeaponKillRadius=560
+DepthWeaponSinkRate=0.2
+[Model]
+ModelFile=weapons/assets/rgb-60
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=weapons/assets/usn_moss_tx
+MeshPosition=0,0,0
+MeshDepthWeapon=RGB-60
+MeshPosition=0,0,-0.014
+DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+
+
+
 //wp_depth_bomb_5kt=Nuclear Depth Bomb 5KT=Nuclear Depth Bomb 5 Kiloton Helo-Dropped
-//abstracted 5 kiloton depth bomb eg for WP helicopter
+//abstracted 5 kiloton depth bomb eg for WP helicopter eg "Skat"
 DepthWeaponObjectReference=wp_depth_bomb_5kt
 DepthWeaponWarhead=5000000
 DepthWeaponContactExploded=TRUE
@@ -2772,17 +2781,45 @@ MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
 
 
-//usn_depth_bomb_10kt=Nuclear Depth Bomb 10KT=Nuclear Depth Warhead W44 10KT
-//10 kiloton W44 nuclear depth bomb standalone or as ASROC warhead
+//usn_depth_bomb_10kt=Nuclear Depth Bomb 10KT=10KT Nuclear Depth Bomb B57 or ASROC
+//USN B57 depth bomb variable yield from sub-kt to 20 kiloton 
+//Same W44 warhead used as ASROC warhead. 
+//In service 1960s -1993. From late 80s was the only NATO ASW nuclear weapon. 
+//Used on S-3 and P-3 and most US Navy aircraft including on Sea King helos
+//This weapon was also used on RAF Nimrods, Dutch NP-3s, Italian Atlantics, and (up to 1971) Canadian CF-104s
 DepthWeaponObjectReference=usn_depth_bomb_10kt
 DepthWeaponWarhead=10000000
 DepthWeaponContactExploded=TRUE
 DepthWeaponDepthExploded=TRUE
 // based on Operation Wigwam, Mk 90 "Betty" US nuclear depth charge:
-// 30kt, kill 1960s sub at 1 mile, damage at 2 miles. 
+// 30kt, kill 1960s sub at 1.3 mile (7000'), damage at 2 miles. 
 // then apply inverse cube law.
 // (10kt/30kt)^1/3 = 0.69, * 1760 yds = 1220 yds
 DepthWeaponKillRadius=1200
+DepthWeaponSinkRate=0.2
+[Model]
+ModelFile=weapons/assets/rgb-60
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=weapons/assets/usn_moss_tx
+MeshPosition=0,0,0
+MeshDepthWeapon=RGB-60
+MeshPosition=0,0,-0.014
+DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+
+
+
+//usn_depth_bomb_11kt=Nuclear Depth Bomb 11KT=Nuclear Depth Bomb Mk101 Lulu 11KT
+//W34 warhead. In service 1958-1971
+//Also used by RAF on Shackletons and Dutch Navy on P-2 and P-3s 
+DepthWeaponObjectReference=usn_depth_bomb_11kt
+DepthWeaponWarhead=11000000
+DepthWeaponContactExploded=TRUE
+DepthWeaponDepthExploded=TRUE
+// based on Operation Wigwam, Mk 90 "Betty" US nuclear depth charge:
+// 30kt, kill 1960s sub at 1.3 mile (7000'), damage at 2 miles. 
+// then apply inverse cube law.
+// (11kt/30kt)^1/3 = 0.72, * 1760 yds = 1260 yds
+DepthWeaponKillRadius=1260
 DepthWeaponSinkRate=0.2
 [Model]
 ModelFile=weapons/assets/rgb-60
