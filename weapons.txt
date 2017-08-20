@@ -465,7 +465,10 @@ AudioLoop=TRUE
 WeaponObjectReference=usn_mk46asroc
 WeaponSprite=weapons/sprites/usn_mk16_sprite
 WeaponType=TORPEDO
-Warhead=200
+//original PSM value is too high for this lightweight airdropped torp
+//Warhead=200
+//warhead is 44.5kg of PBXN-103, assume 1.86 x TNT as per Mk48
+Warhead=83
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 RangeInYards=11000
@@ -723,10 +726,11 @@ AudioLoop=TRUE
 
 // ----------------------------------------------MISSILES----------------------------------------------
 
+//Nuclear armed TLAM 150 Kiloton
 WeaponObjectReference=warhead
 WeaponSprite=weapons/sprites/usn_tlam_sprite
 WeaponType=MISSILE
-Warhead=150000
+Warhead=150000000
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 LandAttack=TRUE
@@ -779,7 +783,7 @@ WeaponObjectReference=rus_r39_slbm
 WeaponSprite=hud/russian/rus_r39_slbm_sprite.png
 WeaponType=MISSILE
 MissilePayload=warhead
-Warhead=150000
+Warhead=150000000
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 LandAttack=TRUE
@@ -832,7 +836,7 @@ WeaponObjectReference=fra_m45_slbm
 WeaponSprite=hud/default/fra_m45_slbm_sprite.png
 WeaponType=MISSILE
 MissilePayload=warhead
-Warhead=150000
+Warhead=150000000
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 LandAttack=TRUE
@@ -885,7 +889,7 @@ WeaponObjectReference=usn_trident
 WeaponSprite=hud/default/usn_trident_sprite.png
 WeaponType=MISSILE
 MissilePayload=warhead
-Warhead=150000
+Warhead=150000000
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 LandAttack=TRUE
@@ -938,7 +942,7 @@ WeaponObjectReference=usn_polaris
 WeaponSprite=hud/default/usn_polaris_sprite.png
 WeaponType=MISSILE
 MissilePayload=warhead
-Warhead=150000
+Warhead=150000000
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 LandAttack=TRUE
@@ -1759,6 +1763,7 @@ AudioLoop=TRUE
 WeaponObjectReference=usn_mk37
 WeaponSprite=weapons/sprites/usn_mk37_sprite
 WeaponType=TORPEDO
+//Warhead 150kg of HBX
 Warhead=225
 SurfaceLaunched=FALSE
 SwimOut=TRUE
