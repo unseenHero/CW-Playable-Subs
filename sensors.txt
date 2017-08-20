@@ -1,6 +1,24 @@
-﻿[Sonar]
+[Sonar]
 
 // -------------------------------------------------------------------- New Sensors ------------------------------------------------------------------------
+
+SonarModel=csu_81-1
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,M
+SonarActiveSensitivity=28
+SonarPassiveSensitivity=40
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
+SonarModel=csu_90-2
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,M
+SonarActiveSensitivity=33
+SonarPassiveSensitivity=45
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=270
 
 SonarModel=aus_tss
 SonarType=ACTIVE/PASSIVE
