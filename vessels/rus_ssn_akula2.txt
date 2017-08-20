@@ -47,9 +47,9 @@ TubeConfig=1,1,1,1,1,1,1,1,1
 TorpedoTubeSize=21
 TubeReloadTime=30
 
-VLSTorpedoTypes=wp_s10,wp_ss-n-16
-VLSTorpedoNumbers=6,0
-VLSMaxDepthToFire=2000
+VLSTorpedoTypes=wp_s10,wp_ss-n-16,russian_moss
+VLSTorpedoNumbers=0,0,6
+VLSMaxDepthToFire=3000
 VLSMaxSpeedToFire=20
 
 NoisemakerName=wp_noisemaker
