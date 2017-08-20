@@ -193,7 +193,11 @@ WeaponObjectReference=usn_mk50
 WeaponSprite=weapons/sprites/usn_mk16_sprite
 WeaponType=TORPEDO
 //Warhead=350
-Warhead=250
+//even amended PSM value is too high for this lightweight airdropped torp
+//Warhead=250
+//Warhead appears to be unchanged from the Mk46:
+//Mk46 warhead is 44.5kg of PBXN-103, assume 1.86 x TNT as per Mk48
+Warhead=85
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 RangeInYards=15000
